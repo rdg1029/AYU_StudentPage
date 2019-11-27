@@ -1,8 +1,92 @@
-body {
-    background-color: #327BB2;
+div img {
+    width: 150px;
+    height: 150px;
 }
 
-div img {
-    width: 120px;
-    height: 120px;
+.profile {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.time-table {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.calendar {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.web-mail {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.notice {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.profile-bg {
+    background-color: #f78383;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.time-table-bg {
+    background-color: #e8b761;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.calendar-bg {
+    background-color: #d8e087;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.web-mail-bg {
+    background-color: #8ed56f;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.notice-bg {
+    background-color: #47c89b;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
 }
