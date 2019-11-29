@@ -1,3 +1,7 @@
+body {
+    background: #428bca;
+}
+
 div img {
     width: 150px;
     height: 150px;
@@ -6,31 +10,46 @@ div img {
 .profile {
     width: 250px;
     height: auto;
-    margin: 0 auto;
+    position: absolute;
+    margin: 1% 0 0 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .time-table {
     width: 250px;
     height: auto;
-    margin: 0 auto;
+    position: absolute;
+    margin: 20% 0 0 0;
+    left: 25%;
+    transform: translateX(-50%);
 }
 
 .calendar {
     width: 250px;
     height: auto;
-    margin: 0 auto;
+    position: absolute;
+    margin: 20% 0 0 0;
+    left: 75%;
+    transform: translateX(-50%);
 }
 
 .web-mail {
     width: 250px;
     height: auto;
-    margin: 0 auto;
+    position: absolute;
+    margin: 45% 0 0 0;
+    left: 35%;
+    transform: translateX(-50%);
 }
 
 .notice {
     width: 250px;
     height: auto;
-    margin: 0 auto;
+    position: absolute;
+    margin: 45% 0 0 0;
+    left: 65%;
+    transform: translateX(-50%);
 }
 
 .profile-bg {
@@ -41,6 +60,7 @@ div img {
     text-align: center;
     margin: 0 auto;
     padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .time-table-bg {
@@ -52,6 +72,7 @@ div img {
     vertical-align: middle;
     margin: 0 auto;
     padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .calendar-bg {
@@ -63,6 +84,7 @@ div img {
     vertical-align: middle;
     margin: 0 auto;
     padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .web-mail-bg {
@@ -74,6 +96,7 @@ div img {
     vertical-align: middle;
     margin: 0 auto;
     padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .notice-bg {
@@ -85,8 +108,14 @@ div img {
     vertical-align: middle;
     margin: 0 auto;
     padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-p {
+a {
+    text-decoration: none;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
