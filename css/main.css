@@ -2,12 +2,21 @@ body {
     background: #428bca;
 }
 
-table {
-    margin: auto;
+.circle {
+    width: 500px;
+    height: 500px;
+    border: 20px solid #A0C5E4;
+    border-radius: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
 }
 
-td {
-    width: 250px;
+table {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 div img {
@@ -18,28 +27,31 @@ div img {
 .profile {
     width: 250px;
     height: auto;
+    margin-bottom: 200px;
 }
 
 .time-table {
     width: 250px;
     height: auto;
+    margin-top: 200px;
 }
 
 .calendar {
     width: 250px;
     height: auto;
+    margin-top: 200px;
 }
 
 .web-mail {
     width: 250px;
     height: auto;
-    margin-top: 150px;
+    float: right;
 }
 
 .notice {
     width: 250px;
     height: auto;
-    margin-top: 150px;
+    float: left;
 }
 
 .profile-bg {
