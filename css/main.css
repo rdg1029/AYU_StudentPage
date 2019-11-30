@@ -2,6 +2,14 @@ body {
     background: #428bca;
 }
 
+table {
+    margin: auto;
+}
+
+td {
+    width: 250px;
+}
+
 div img {
     width: 150px;
     height: 150px;
@@ -10,46 +18,28 @@ div img {
 .profile {
     width: 250px;
     height: auto;
-    position: absolute;
-    margin: 1% 0 0 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .time-table {
     width: 250px;
     height: auto;
-    position: absolute;
-    margin: 20% 0 0 0;
-    left: 25%;
-    transform: translateX(-50%);
 }
 
 .calendar {
     width: 250px;
     height: auto;
-    position: absolute;
-    margin: 20% 0 0 0;
-    left: 75%;
-    transform: translateX(-50%);
 }
 
 .web-mail {
     width: 250px;
     height: auto;
-    position: absolute;
-    margin: 45% 0 0 0;
-    left: 35%;
-    transform: translateX(-50%);
+    margin-top: 150px;
 }
 
 .notice {
     width: 250px;
     height: auto;
-    position: absolute;
-    margin: 45% 0 0 0;
-    left: 65%;
-    transform: translateX(-50%);
+    margin-top: 150px;
 }
 
 .profile-bg {
