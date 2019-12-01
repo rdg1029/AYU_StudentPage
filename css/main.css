@@ -13,6 +13,23 @@ body {
     margin-top: 100px;
 }
 
+.ayu-logo {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 270px;
+    padding: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ayu-logo:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
 table {
     position: absolute;
     left: 50%;
@@ -28,30 +45,37 @@ div img {
     width: 250px;
     height: auto;
     margin-bottom: 200px;
+    text-align: center;
 }
 
 .time-table {
     width: 250px;
     height: auto;
     margin-top: 200px;
+    text-align: center;
 }
 
 .calendar {
     width: 250px;
     height: auto;
     margin-top: 200px;
+    text-align: center;
 }
 
 .web-mail {
     width: 250px;
     height: auto;
     float: right;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .notice {
     width: 250px;
     height: auto;
     float: left;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .profile-bg {
@@ -63,6 +87,10 @@ div img {
     margin: 0 auto;
     padding: 30px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-bg:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .time-table-bg {
@@ -77,6 +105,10 @@ div img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.time-table-bg:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
 .calendar-bg {
     background-color: #d8e087;
     width: 150px;
@@ -87,6 +119,10 @@ div img {
     margin: 0 auto;
     padding: 30px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-bg:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .web-mail-bg {
@@ -101,6 +137,10 @@ div img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.web-mail-bg:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
 .notice-bg {
     background-color: #47c89b;
     width: 150px;
@@ -113,11 +153,15 @@ div img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.notice-bg:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
 a {
     text-decoration: none;
     text-align: center;
     color: white;
     font-weight: bold;
     font-size: 20px;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1.0);
 }
