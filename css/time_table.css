@@ -1,0 +1,40 @@
+body {
+    background: #428bca;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.parts {
+    background: url('http://cdn.zetawiki.com/png/backslash.png');
+}
+
+tr td span:nth-child(1) {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+tr td span:nth-child(4) {
+    color: #2A6496;
+}
+
+tr td:hover span:nth-child(4) {
+    color: #96c2e0;
+    font-size: 15px;
+}
+
+td {
+    border: 3px solid #428bca;
+}
+
+th {
+    color: #2A6496;
+    border: 3px solid #428bca;
+}
