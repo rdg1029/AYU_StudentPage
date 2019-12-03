@@ -16,6 +16,11 @@ table {
     background: url('http://cdn.zetawiki.com/png/backslash.png');
 }
 
+th, td {
+    width: 100px;
+    height: 100px;
+}
+
 tr td span:nth-child(1) {
     color: #FFFFFF;
     font-weight: bold;
