@@ -9,29 +9,67 @@
     <body>
         <div class="input-form">
             <form>
-                <p>이름 : <input type="text" value="김영현"></p>
-                <p>학번 : <input type="text" value="2019E7029"></p>
-                <p>학과 : <input type="text" value="ICT융합공학부"></p>
-                <p><textarea rows="10" cols="50">자기소개 입력</textarea></p>
-                <p>
+                <input class="name" type="text" placeholder="이름" value="김영현">
+                <br>
+                <input class="student-number" type="text" placeholder="학번" value="2019E7029">
+                <br>
+                <input class="major" type="text" placeholder="학과" value="ICT융합공학부">
+                <p><textarea rows="10" cols="50" placeholder="자기소개 입력"></textarea></p>
+                <div class="interest">
                     <h2>관심 분야</h2>
-                    <!--checkbox-->
-                </p>
-                <p>
+                    <input type="checkbox">스포츠
+                    <input type="checkbox">음악
+                    <input type="checkbox">게임
+                    <input type="checkbox">TV연예
+                    <input type="checkbox">패션
+                    <input type="checkbox">뷰티
+                    <input type="checkbox">영화
+                    <input type="checkbox">IT
+                    <input type="checkbox">과학
+                    <input type="checkbox">자동차
+                    <input type="checkbox">여행
+                    <input type="checkbox">도서
+                </div>
+                <div class="grades">
                     <h2>성적</h2>
-                    <p>1학년 1학기 평균 학점 : <input id="score1-1" type="text" value=""></p>
-                    <p>1학년 2학기 평균 학점 : <input id="score1-2" type="text" value=""></p>
-                    <p>2학년 1학기 평균 학점 : <input id="score2-1" type="text" value=""></p>
-                    <p>2학년 2학기 평균 학점 : <input id="score2-2" type="text" value=""></p>
-                    <p>3학년 1학기 평균 학점 : <input id="score3-1" type="text" value=""></p>
-                    <p>3학년 2학기 평균 학점 : <input id="score3-2" type="text" value=""></p>
-                    <p>4학년 1학기 평균 학점 : <input id="score4-1" type="text" value=""></p>
-                    <p>4학년 2학기 평균 학점 : <input id="score4-2" type="text" value=""></p>
-                    <p><input type="button" value="적용" onclick="apply()"></p>
-                    <p>전체 평균<br><meter id="meter" min="0.0" max="4.5" low="2.0" optimum="3.0" high="4.0"></meter></p>
-                    <h2 id="result">-</h2>
-                </p>
+                    <table>
+                        <tr>
+                            <td>1학년 1학기 평균 학점 : <input id="score1-1" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                            <td rowspan="8">
+                                <h2 class="all-avg">전체 평균</h2>
+                                <h2 id="result">-</h2>
+                                <meter id="meter" min="0.0" max="4.5" low="2.0" optimum="3.0" high="4.0"></meter>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1학년 2학기 평균 학점 : <input id="score1-2" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>2학년 1학기 평균 학점 : <input id="score2-1" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>2학년 2학기 평균 학점 : <input id="score2-2" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>3학년 1학기 평균 학점 : <input id="score3-1" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>3학년 2학기 평균 학점 : <input id="score3-2" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>4학년 1학기 평균 학점 : <input id="score4-1" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>4학년 2학기 평균 학점 : <input id="score4-2" type="text" placeholder="학점을 입력하세요 (0~4.5)" value=""></td>
+                        </tr>
+                    </table>
+                    <p><input class="btn-apply" type="button" value="적용" onclick="apply()"></p>
+                    <p></p>
+                </div>
             </form>
+        </div>
+        <div class="profile-header">
+            <img class="profile-img" src="img/profile.svg">
         </div>
     </body>
 </html>

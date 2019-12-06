@@ -3,11 +3,171 @@ body {
     text-align: center;
 }
 
+.profile-header {
+    width: 150px;
+    height: 150px;
+    background-color: #2a6496;
+    border-radius: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+}
+
 .input-form {
     background-color: white;
     border-radius: 50px;
     width: 1200px;
-    margin: 50px auto;
+    margin: 100px auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.name {
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 150px;
+    border: none;
+}
+
+.name:hover {
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+.name:focus {
+    border: 2px solid #428bca;
+    border-radius: 5px;
+}
+
+.student-number {
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0;
+    border: none;
+}
+
+.student-number:hover {
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+.student-number:focus {
+    border: 2px solid #428bca;
+    border-radius: 5px;
+}
+
+.major {
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a6496;
+    border: none;
+}
+
+.major:hover {
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+.major:focus {
+    border: 2px solid #428bca;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 2px solid #428bca;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.interest {
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a6496;
+}
+
+.interest input[type="checkbox"] {
+    margin: 0 10px;
+}
+
+.grades {
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td, th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a6496;
+    padding: 10px;
+}
+
+td input {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+}
+
+td input:hover {
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+td input:focus {
+    border: 2px solid #428bca;
+    border-radius: 5px;
+}
+
+.all-avg {
+    color: #2a6496;
+}
+
+#result {
+    margin: 100px 0;
+}
+
+meter {
+    width: 200px;
+    height: 50px;
+}
+
+.btn-apply {
+    background-color: white;
+    border: 2px solid #428bca;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a6496;
+    padding: 5px 15px;
+}
+
+.btn-apply:hover {
+    background-color: #428bca;
+    color: white;
 }

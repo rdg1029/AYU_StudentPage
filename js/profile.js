@@ -31,7 +31,7 @@ function showResult() {
     }
     else {
         document.getElementById("meter").value = sum/count;
-        document.getElementById("result").innerHTML = (sum/count).toFixed(2);
+        document.getElementById("result").innerHTML = (sum/count).toFixed(2) + " / 4.5";
     }
 }
 
@@ -40,5 +40,4 @@ function apply() {
     init();
     checkScore();
     showResult();
-    console.log("apply clicked");
 }
