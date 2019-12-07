@@ -38,8 +38,6 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    animation-name: startAnim;
-    animation-duration: 2s;
 }
 
 div img {
@@ -52,6 +50,8 @@ div img {
     height: auto;
     margin-bottom: 200px;
     text-align: center;
+    animation-name: menuAnim;
+    animation-duration: 1s;
 }
 
 .time-table {
@@ -59,6 +59,8 @@ div img {
     height: auto;
     margin-top: 200px;
     text-align: center;
+    animation-name: menuAnim;
+    animation-duration: 1.3s;
 }
 
 .calendar {
@@ -66,6 +68,8 @@ div img {
     height: auto;
     margin-top: 200px;
     text-align: center;
+    animation-name: menuAnim;
+    animation-duration: 2.2s;
 }
 
 .web-mail {
@@ -74,6 +78,8 @@ div img {
     float: right;
     margin-top: 50px;
     text-align: center;
+    animation-name: menuAnim;
+    animation-duration: 1.6s;
 }
 
 .notice {
@@ -82,6 +88,12 @@ div img {
     float: left;
     margin-top: 50px;
     text-align: center;
+    animation-name: menuAnim;
+    animation-duration: 1.9s;
+}
+
+.profile:hover, .time-table:hover, .calendar:hover, .web-mail:hover, .notice:hover {
+    transform: scale(1.1);
 }
 
 .profile-bg {
@@ -93,10 +105,6 @@ div img {
     margin: 0 auto;
     padding: 30px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.profile-bg:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .time-table-bg {
@@ -111,10 +119,6 @@ div img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.time-table-bg:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-}
-
 .calendar-bg {
     background-color: #d8e087;
     width: 150px;
@@ -125,10 +129,6 @@ div img {
     margin: 0 auto;
     padding: 30px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.calendar-bg:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .web-mail-bg {
@@ -143,10 +143,6 @@ div img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.web-mail-bg:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-}
-
 .notice-bg {
     background-color: #47c89b;
     width: 150px;
@@ -159,7 +155,7 @@ div img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.notice-bg:hover {
+.profile-bg:hover, .time-table-bg:hover, .calendar-bg:hover, .web-mail-bg:hover, .notice-bg:hover {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
@@ -175,4 +171,10 @@ a {
 @keyframes startAnim {
     from {opacity: 0.0;}
     to {opacity: 1.0;}
+}
+
+@keyframes menuAnim {
+    0% {transform: scale(0);}
+    50% {transform: scale(0);}
+    100% {transform: scale(1.0);}
 }

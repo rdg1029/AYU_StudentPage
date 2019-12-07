@@ -10,6 +10,8 @@ h1 {
 
 table {
     border-collapse: collapse;
+    animation-name: tableAnim;
+    animation-duration: 1s;
 }
 
 .parts {
@@ -42,4 +44,20 @@ td {
 th {
     color: #2A6496;
     border: 3px solid #428bca;
+}
+
+.subject {
+    animation-name: subjectAnim;
+    animation-duration: 1s;
+}
+
+@keyframes tableAnim {
+    from {opacity: 0;}
+    to {opacity: 1.0;}
+}
+
+@keyframes subjectAnim {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1.0;}
 }

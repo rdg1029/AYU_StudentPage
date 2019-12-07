@@ -10,6 +10,8 @@ body {
     background-color: #2a6496;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     position: fixed;
+    animation-name: headerAnim;
+    animation-duration: 1s;
 }
 
 h1 {
@@ -41,4 +43,9 @@ a:active {
 iframe {
     width: 1200px;
     height: 3000px;
+}
+
+@keyframes headerAnim {
+    from {top: -250px;}
+    to {top: 0;}
 }
