@@ -1,4 +1,4 @@
-var score = [], sum = 0.0, count = 0.0, isWrongValue = false;
+var score = [], sum = 0.0, count = 0.0, isWrongValue;
 
 function init() {
     score[0] = parseFloat(document.getElementById("score1-1").value);
@@ -13,6 +13,7 @@ function init() {
 
 function checkScore() {
     var i;
+    isWrongValue = false;
     for(i = 0; i < 8; i++) {
         if(score[i] >= 0.0 && score[i] <= 4.5) {
             sum += score[i];
@@ -27,7 +28,6 @@ function checkScore() {
 function showResult() {
     if(isWrongValue === true) {
         document.getElementById("result").innerHTML = "제대로 된 값을 입력해주세요!";
-        isWrongValue = false;
     }
     else {
         document.getElementById("meter").value = sum/count;
